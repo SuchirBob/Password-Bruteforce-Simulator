@@ -28,7 +28,7 @@ def cracking(username,url):
 
 
 
-with open(password_file, 'r') as passwords:
+with open(password_file, 'r') as passwords: #where the password list (.txt file) goes
 	cracking(username,url)
 
 print('[!!] Password Not In List')
